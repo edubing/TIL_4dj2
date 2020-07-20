@@ -80,3 +80,17 @@ $ git remote add origin { github repo url }
 $ git remote -v
 ```
 
+- 등록된 원격 저장소를 삭제하려면 아래의 명령어를 참고하세요.
+
+```sh
+$ git remote rm { 삭제하고자 하는 remote name }
+```
+
+### 3. 원격 저장소에 업로드
+
+아래의 명령어를 통해 원격 저장소에 commit된 코드를 업로드할 수 있습니다.
+
+```sh
+$ git push origin master
+```
+
